@@ -16,7 +16,6 @@ const toString = [
     `${ { key: 'foo' } }`, // '[object Object]': string
     JSON.stringify( { key: 'bar' } ), // '{"key":"bar"}': string
 ]
-// console.log( toString )
 
 const toNumber = [
     Number( '123' ), // 123: number
@@ -31,7 +30,6 @@ const toNumber = [
     +null, // 0: number
     +undefined, // NaN: number
 ]
-// console.log( toNumber )
 
 const foo = 'foo'
 const toBoolean = [
@@ -40,22 +38,20 @@ const toBoolean = [
     Boolean( 'true' ), // the string 'true' is truthy because it is a non-empty string
     Boolean( 'false' ), // the string 'false' is truthy because it is a non-empty string
 ]
-// console.log( toBoolean )
 
 
 /* --------------- Falsy Values --------------- */
 
 // falsy means something that coerces to false
 const falsyValues = {
-    normalFalse: !!false,
-    numberZero: !!0,
-    negativeZero: !!-0,
-    notANumber: !!NaN,
-    emptyString: !!'',
-    null: !!null,
-    undefined: !!undefined,
+    normalFalse: !!false, // false: boolean
+    numberZero: !!0, // false: boolean
+    negativeZero: !!-0, // false: boolean
+    notANumber: !!NaN, // false: boolean
+    emptyString: !!'', // false: boolean
+    null: !!null, // false: boolean
+    undefined: !!undefined, // false: boolean
 }
-// console.log( falsyValues )
 
 
 
@@ -87,3 +83,19 @@ console.log(
         Object.entries( truthyValues ).map( ( [ key, val ] ) => [ key, !!val ] )
     )
 )
+// {
+//   normalTrue: true,
+//   numberOne: true,
+//   negativeOne: true,
+//   nonEmptyString: true,
+//   emptyArray: true,
+//   emptyObject: true,
+//   nonEmptyObject: true,
+//   nonEmptyArray: true,
+//   emptyFunction: true,
+//   emptyArrowFunction: true,
+//   emptyMethod: true,
+//   nonEmptyFunction: true,
+//   nonEmptyArrowFunction: true,
+//   nonEmptyMethod: true,
+// }
