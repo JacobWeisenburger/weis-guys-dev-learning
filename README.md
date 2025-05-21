@@ -11,6 +11,9 @@
 - [How To Create/Use Functions - JavaScript Essentials](https://www.youtube.com/watch?v=FOD408a0EzU)
 - [JavaScript Tutorials for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
 
+### Git: Version Control System & GitHub: Hosting for Git repositories
+- [Git & GitHub Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+
 ### TS (TypeScript): JavaScript with Types
 - [TypeScript Crash Course](https://www.youtube.com/watch?v=BCg4U1FzODs)
 - [TypeScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
