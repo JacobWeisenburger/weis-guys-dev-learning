@@ -35,6 +35,8 @@ const foo = 'foo'
 const toBoolean = [
     !foo, // false: boolean
     !!foo, // true: boolean
+    !!1, // true: boolean
+    !!0, // false: boolean
     Boolean( 'true' ), // the string 'true' is truthy because it is a non-empty string
     Boolean( 'false' ), // the string 'false' is truthy because it is a non-empty string
 ]
@@ -99,3 +101,22 @@ console.log(
 //   nonEmptyArrowFunction: true,
 //   nonEmptyMethod: true,
 // }
+
+
+
+/* --------------- Exercises --------------- */
+// which of these will log?
+
+if ( 123 == '123' ) console.log( `123 == '123' is true` )
+if ( 123 === '123' ) console.log( `123 == '123' is true` )
+
+if ( null == undefined ) console.log( `null == undefined is true` )
+if ( null === undefined ) console.log( `null === undefined is true` )
+
+if ( NaN == NaN ) console.log( `NaN == NaN is true` )
+if ( NaN === NaN ) console.log( `NaN === NaN is true` )
+
+if ( NaN ) console.log( 'NaN is truthy' )
+if ( null ) console.log( 'null is truthy' )
+if ( +'123' ) console.log( '+123 is truthy' )
+if ( +null ) console.log( '+null is truthy' )
