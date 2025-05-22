@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        /* class=calculate-btn */
+        .calculate-btn {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* id=amount */
+        #amount {
+            /* add some styles */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculate that Interest</h1>
+
+    <div>
+        <label>
+            Enter amount:
+            <input type="number" id="amount" placeholder="Enter value" step="0.01">
+        </label>
+    </div>
+    <button class="calculate-btn" onclick="updateDomWithResult()">Calculate</button>
+    <div id="result"></div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

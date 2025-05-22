@@ -1,0 +1,8 @@
+{
+    "key": "bar",
+    "array": [
+        "foo",
+        "bar",
+        "baz"
+    ]
+}
