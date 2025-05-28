@@ -1,5 +1,7 @@
 // @ts-nocheck
 console.log( 'Lesson: shortCircuitEvaluation' )
+
+
 /* --------------- Short-circuit evaluation --------------- */
 
 function returnTrue () {
@@ -12,16 +14,22 @@ function returnFalse () {
 }
 const returnVoid = () => console.log( `called returnVoid` )
 
-// if ( returnTrue() || returnFalse() ) console.log( `returnTrue() || returnFalse()` )
-// if ( returnFalse() || returnTrue() ) console.log( `returnFalse() || returnTrue()` )
-// if ( returnVoid() || returnTrue() ) console.log( `returnVoid() || returnTrue()` )
 
-// if ( returnTrue() && returnFalse() ) console.log( `returnTrue() && returnFalse()` )
-// if ( returnFalse() && returnTrue() ) console.log( `returnFalse() && returnTrue()` )
-// if ( returnVoid() && returnTrue() ) console.log( `returnVoid() && returnTrue()` )
+/* --------------- Exercises --------------- */
 
-// if ( returnTrue() || returnFalse() && returnFalse() ) console.log( `returnTrue() || returnFalse() && returnFalse` )
+// if ( true || false ) console.log( `passed` )
+// if ( true && false ) console.log( `passed` )
 
-// if ( true || false && false ) console.log( `true || false && false` )
-// if ( false && false || true ) console.log( `false && false || true` )
-// if ( ( true || false ) && false ) console.log( `(true || false) && false` )
+// if ( true || false && false ) console.log( `passed` )
+// if ( false && false || true ) console.log( `passed` )
+// if ( ( true || false ) && false ) console.log( `passed` )
+
+// if ( returnTrue() || returnFalse() ) console.log( `passed` )
+// if ( returnFalse() || returnTrue() ) console.log( `passed` )
+// if ( returnVoid() || returnTrue() ) console.log( `passed` )
+
+// if ( returnTrue() && returnFalse() ) console.log( `passed` )
+// if ( returnFalse() && returnTrue() ) console.log( `passed` )
+// if ( returnVoid() && returnTrue() ) console.log( `passed` )
+
+// if ( returnTrue() || returnFalse() && returnFalse() ) console.log( `passed` )

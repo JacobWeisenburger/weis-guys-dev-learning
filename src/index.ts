@@ -1,3 +1,3 @@
 // import './JP'
-import './JP/coercionAndTruthyVsFalsy'
-// import './JP/shortCircuitEvaluation'
+// import './JP/coercionAndTruthyVsFalsy'
+import './JP/shortCircuitEvaluation'
