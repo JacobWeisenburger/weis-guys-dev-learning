@@ -1,6 +1,9 @@
 # weis-guys-dev-learning
 
-## Tutorials
+## Beginner
+
+### Computer Science
+- [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 ### HTML (Hypertext Markup Language) & CSS (Cascading Style Sheets)
 - [HTML Crash Course For Beginners](https://www.youtube.com/watch?v=UB1O30fR-EE)
@@ -13,6 +16,8 @@
 
 ### Git: Version Control System & GitHub: Hosting for Git repositories
 - [Git & GitHub Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+
+## Intermediate
 
 ### TS (TypeScript): JavaScript with Types
 - [TypeScript Crash Course](https://www.youtube.com/watch?v=BCg4U1FzODs)
@@ -34,6 +39,8 @@
 ### Firebase: Flexible Database from Google
 - [Firebase 9 Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb)
 - [Firebase Firestore Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB)
+
+## Advanced
 
 ### Functional Programming
 - [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
