@@ -60,6 +60,7 @@ const falsyValues = {
     emptyString: !!'', // false: boolean
     null: !!null, // false: boolean
     undefined: !!undefined, // false: boolean
+    // void: !!void, // false: boolean
 }
 
 

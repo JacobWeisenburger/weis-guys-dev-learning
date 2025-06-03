@@ -12,7 +12,9 @@ function returnFalse () {
     console.log( `called returnFalse` )
     return false
 }
-const returnVoid = () => console.log( `called returnVoid` )
+function returnVoid () {
+    console.log( `called returnVoid` )
+}
 
 
 /* --------------- Exercises --------------- */
@@ -32,4 +34,4 @@ const returnVoid = () => console.log( `called returnVoid` )
 // if ( returnFalse() && returnTrue() ) console.log( `passed` )
 // if ( returnVoid() && returnTrue() ) console.log( `passed` )
 
-// if ( returnTrue() || returnFalse() && returnFalse() ) console.log( `passed` )
+// if ( returnFalse() || returnTrue() || returnFalse() && returnFalse() ) console.log( `passed` )
