@@ -1,1 +1,1 @@
-[Division/Modulo](https://docs.google.com/presentation/d/1XTcnPznRKlTW-8vT2emM-KDUYy5ByO-e07VX96v81O4/edit?usp=sharing)
+[Division/Modulo](https://docs.google.com/presentation/d/1XTcnPznRKlTW-8vT2emM-KDUYy5ByO-e07VX96v81O4)
